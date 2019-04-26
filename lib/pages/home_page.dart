@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:radcode/widgets/post_list.dart';
 
 class HomePage extends StatelessWidget {
   HomePage() : super();
@@ -7,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       drawer: Drawer(
         child: Container(
-          padding: EdgeInsets.only(top: 80, left: 15),
+          padding: EdgeInsets.only(top: 80, left: 16),
           child: Text('iOS Development'),
         ),
       ),
@@ -16,7 +17,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
           child: Column(
-        children: [Text('List Item 1')],
+        children: [PostList()],
       )),
     );
   }
