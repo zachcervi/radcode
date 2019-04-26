@@ -12,7 +12,7 @@ Widget buildPostCard(Post post) {
                 post.title,
                 style: TextStyle(fontSize: 18),
               ),
-              Text('iOS Android Mobile Flutter Development'),
+              Text('iOS Android Mobile Flutter Development 2.0'),
             ],
           )));
 }
