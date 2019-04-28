@@ -4,7 +4,7 @@ import 'package:radcode/model/post.dart';
 Widget _buildTags(List<String> tags) {
   List<Widget> chips = [];
   for (var i = 0; i < tags.length; i++) {
-    final chip = Expanded(
+    final chip = Flexible(
         child: Container(
             padding: EdgeInsets.only(right: 10),
             child: Chip(
